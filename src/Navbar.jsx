@@ -21,9 +21,9 @@ const Navbar = () => {
       justifyContent: 'center',
       boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
     }}>
-      <Link to="/" style={linkStyle('/')}>🏠 Home</Link>
-      <Link to="/about" style={linkStyle('/about')}>📘 About</Link>
-      <Link to="/contact" style={linkStyle('/contact')}>✉ Contact</Link>
+      <Link to="/" style={linkStyle('/')}> Home</Link>
+      <Link to="/about" style={linkStyle('/about')}> About</Link>
+      <Link to="/contact" style={linkStyle('/contact')}>Contact</Link>
     </nav>
   );
 };
