@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f4f8;
+  overflow-x: hidden;
+  color: #d9e015; /* fallback for visibility */
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.card {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2em;
+  box-sizing: border-box;
+  background: #f1512d;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.read-the-docs {
+  color: #888;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin-top: 1rem;
+}
